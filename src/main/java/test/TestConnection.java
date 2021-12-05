@@ -15,5 +15,7 @@ import java.sql.Connection;
 public class TestConnection {
     public static void main(String[] args) {
         Connection conn = ConnectionDB.getConnection();
+        
+        System.out.println(conn == null ? "Error" : "Connection Established");
     }
 }

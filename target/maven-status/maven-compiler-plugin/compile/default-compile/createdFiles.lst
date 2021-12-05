@@ -1,1 +1,14 @@
+model\UserBuilder.class
+test\TestDeleteUser.class
+test\TestUpdateUser.class
+dao\UserDao.class
+model\Note.class
+test\TestUserBuilder.class
+test\TestConnection.class
+interfaces\IBuilder.class
+interfaces\IDao.class
+test\TestGetAllUser.class
 config\ConnectionDB.class
+test\TestAddUser.class
+dao\NoteDao.class
+model\User.class
