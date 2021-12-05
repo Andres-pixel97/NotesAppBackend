@@ -3,6 +3,7 @@ model\UserBuilder.class
 test\TestDeleteUser.class
 test\TestUpdateUser.class
 interfaces\IUserDao.class
+test\TestVerifyCredentials.class
 dao\UserDao.class
 model\Note.class
 test\TestUserBuilder.class

@@ -20,6 +20,9 @@ public interface IUserDao {
     public List<User> getAll();
     
     @WebMethod
+    public boolean verifyCredentials(String email, String pass);
+    
+    @WebMethod
     public boolean add(User object);
     
     @WebMethod

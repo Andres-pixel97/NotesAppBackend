@@ -54,6 +54,23 @@ public class UserDao implements IUserDao {
     }
 
     @Override
+    public boolean verifyCredentials(String email, String pass) {
+        String query = "SELECT * FROM user WHERE email= ? AND password= ? ;";
+        try {
+            ps = conn.prepareStatement(query);
+            ps.setString(1, email);
+            ps.setString(2, pass);
+            rs = ps.executeQuery();
+            if (rs.next()) {
+                return true;
+            }
+        } catch (Exception e) {
+            System.err.println("Error" + e);
+        }
+        return false;
+    }
+
+    @Override
     public boolean add(User u) {
         String query = "INSERT INTO user(name, lastname, email, password) VALUES (?, ?, ?, ?);";
         try {
