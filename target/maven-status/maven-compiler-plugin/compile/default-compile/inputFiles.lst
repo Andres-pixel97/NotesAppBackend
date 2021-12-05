@@ -1,15 +1,23 @@
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\dao\NoteDao.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\config\ConnectionDB.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestAddUser.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\dao\UserDao.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\model\Note.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestVerifyCredentials.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestDeleteUser.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestGetAllUser.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\model\UserBuilder.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\model\User.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestUserBuilder.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IUserBuilder.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestConnection.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestUpdateUser.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IUserDao.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\model\UserBuilder.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestConnection.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\testNotes\TestDeleteNote.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestDeleteUser.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestGetAllUser.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestAddUser.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestUpdateUser.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\interfaces\IUserDao.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\model\Note.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\testNotes\TestUpdateNote.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\testNotes\TestGetAllNotes.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\model\NoteBuilder.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\model\User.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\interfaces\INoteBuilder.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\dao\UserDao.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\dao\NoteDao.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\testNotes\TestAddNote.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\testNotes\TestGetAllNotesWithUserId.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestUserBuilder.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\test\TestVerifyCredentials.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\interfaces\INoteDao.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\config\ConnectionDB.java
+C:\Users\Miguel\Documents\NetBeansProjects\NotesAppBackend\src\main\java\interfaces\IUserBuilder.java

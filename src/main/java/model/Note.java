@@ -14,11 +14,7 @@ public class Note {
     private int idnote, iduser;
     private String title, content;
     
-    public Note(int idnote, String title, String content, int iduser) {
-        this.idnote = idnote;
-        this.title = title;
-        this.content = content;
-        this.iduser = iduser;
+    public Note() {
     }
 
     public int getIdnote() {
@@ -53,4 +49,8 @@ public class Note {
         this.content = content;
     }
     
+    @Override
+    public String toString(){
+         return "Note{" + "iduser=" + this.iduser + ", idnote=" + this.idnote + ", title=" + this.title + ", content=" + this.content + "}";
+    }
 }
