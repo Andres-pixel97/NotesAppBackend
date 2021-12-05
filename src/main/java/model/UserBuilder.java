@@ -5,18 +5,18 @@
  */
 package model;
 
-import interfaces.IBuilder;
+import interfaces.IUserBuilder;
 
 /**
  *
  * @author joang
  */
-public class UserBuilder implements IBuilder<User>{
+public class UserBuilder implements IUserBuilder{
     private int iduser;
     private String name, lastname, email, password;
 
     public UserBuilder() {
-        iduser = 0;
+        iduser = 0; // Valor por default ya que el campo en la db es auto_increment
     }
     
     public UserBuilder withIduser(int iduser) {

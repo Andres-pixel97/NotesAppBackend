@@ -6,9 +6,9 @@ E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backe
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestDeleteUser.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestGetAllUser.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\model\UserBuilder.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IBuilder.java
-E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IDao.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\model\User.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestUserBuilder.java
+E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IUserBuilder.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestConnection.java
 E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\test\TestUpdateUser.java
+E:\Dropbox\Documentos\Universidad\Desarrollo de Aplicaciones Empresariales\Backend\NotesApp\src\main\java\interfaces\IUserDao.java

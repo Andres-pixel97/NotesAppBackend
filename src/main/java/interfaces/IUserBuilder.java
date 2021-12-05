@@ -5,10 +5,12 @@
  */
 package interfaces;
 
+import model.User;
+
 /**
  *
  * @author joang
  */
-public interface IBuilder<T> {
-    T build();
+public interface IUserBuilder {
+    User build();
 }

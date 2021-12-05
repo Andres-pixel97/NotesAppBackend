@@ -6,7 +6,6 @@
 package dao;
 
 import config.ConnectionDB;
-import interfaces.IDao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,14 +15,15 @@ import javax.ejb.Stateless;
 import javax.jws.WebService;
 import model.User;
 import model.UserBuilder;
+import interfaces.IUserDao;
 
 /**
  *
  * @author joang
  */
 @Stateless
-@WebService(endpointInterface = "interfaces.IDao")
-public class UserDao implements IDao<User> {
+@WebService(endpointInterface = "interfaces.IUserDao")
+public class UserDao implements IUserDao {
 
     Connection conn = ConnectionDB.getConnection();
     PreparedStatement ps;
@@ -47,7 +47,6 @@ public class UserDao implements IDao<User> {
 
                 list.add(user);
             }
-            //return list;
         } catch (Exception e) {
             System.err.println("Error" + e);
         }
@@ -56,9 +55,13 @@ public class UserDao implements IDao<User> {
 
     @Override
     public boolean add(User u) {
-        String query = "INSERT INTO user(name, lastname, email, password) VALUES ('" + u.getName() + "','" + u.getLastname() + "','" + u.getEmail() + "','" + u.getPassword() + "');";
+        String query = "INSERT INTO user(name, lastname, email, password) VALUES (?, ?, ?, ?);";
         try {
             ps = conn.prepareStatement(query);
+            ps.setString(1, u.getName());
+            ps.setString(2, u.getLastname());
+            ps.setString(3, u.getEmail());
+            ps.setString(4, u.getPassword());
             ps.executeUpdate();
             return true;
         } catch (Exception e) {
@@ -69,9 +72,10 @@ public class UserDao implements IDao<User> {
 
     @Override
     public boolean delete(int id) {
-        String query = "DELETE FROM user WHERE iduser = " + id + ";";
+        String query = "DELETE FROM user WHERE iduser = ? ;";
         try {
             ps = conn.prepareStatement(query);
+            ps.setInt(1, id);
             ps.executeUpdate();
             return true;
         } catch (Exception e) {

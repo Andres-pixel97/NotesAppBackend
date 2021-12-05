@@ -5,13 +5,11 @@
  */
 package model;
 
-import javax.xml.bind.annotation.XmlRootElement;
 /**
  *
  * @author joang
  */
 
-@XmlRootElement 
 public class User {
 
     private int iduser;

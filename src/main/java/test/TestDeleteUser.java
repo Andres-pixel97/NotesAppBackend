@@ -15,7 +15,7 @@ public class TestDeleteUser {
     public static void main(String[] args) {
         UserDao dao = new UserDao();
         
-        boolean r = dao.delete(4);
+        boolean r = dao.delete(6);
         
         System.out.println(r ? "Row deleted" : "Error");
     }

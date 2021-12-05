@@ -18,7 +18,7 @@ public class TestUpdateUser {
         UserDao dao = new UserDao();
 
         User aux = new User();
-        aux.setIduser(2);
+        aux.setIduser(7);
         aux.setName("Karla Andrea");
         aux.setLastname("Garcia Hernandez");
         aux.setEmail("email@email.com");

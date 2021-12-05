@@ -17,8 +17,8 @@ public class TestAddUser {
         UserDao dao = new UserDao();
         
         User aux = new User();
-        aux.setName("Karla");
-        aux.setLastname("Garcia");
+        aux.setName("Andrea");
+        aux.setLastname("Sanchez");
         aux.setEmail("email@email.com");
         aux.setPassword("pass123");
         

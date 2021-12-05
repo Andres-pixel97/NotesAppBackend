@@ -5,41 +5,41 @@
  */
 package dao;
 
-import interfaces.IDao;
 import java.sql.Connection;
 import java.util.List;
 import model.Note;
 import config.ConnectionDB;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import interfaces.IUserDao;
 
 /**
  *
  * @author joang
  */
-public class NoteDao implements IDao<Note>{
+public class NoteDao{ // Crear y usar interface INoteDao
     Connection conn = ConnectionDB.getConnection();
     PreparedStatement ps;
     ResultSet rs;
     
-    @Override
-    public List<Note> getAll() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public boolean add(Note object) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public boolean delete(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public boolean update(Note n) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//    @Override
+//    public List<Note> getAll() {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//
+//    @Override
+//    public boolean add(Note object) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//
+//    @Override
+//    public boolean delete(int id) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//
+//    @Override
+//    public boolean update(Note n) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
     
 }

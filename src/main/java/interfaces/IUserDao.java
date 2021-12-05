@@ -8,22 +8,23 @@ package interfaces;
 import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+import model.User;
 
 /**
  *
  * @author joang
  */
 @WebService
-public interface IDao<T> {
+public interface IUserDao {
     @WebMethod
-    public List getAll();
+    public List<User> getAll();
     
     @WebMethod
-    public boolean add(T object);
+    public boolean add(User object);
     
     @WebMethod
     public boolean delete(int id);
     
     @WebMethod
-    public boolean update(T object);
+    public boolean update(User object);
 }
