@@ -23,7 +23,7 @@ public interface INoteDao {
     
     // Gets all notes from a specific user
     @WebMethod
-    public List<Note> getAll(int userid);
+    public List<Note> getAllByUser(int userid);
     
     @WebMethod
     public boolean add(Note object);

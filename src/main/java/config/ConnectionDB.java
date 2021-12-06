@@ -22,7 +22,7 @@ public class ConnectionDB {
         url = "jdbc:mysql://localhost:3306/notesapp?useSSL=false&useTimezone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
         driver = "com.mysql.cj.jdbc.Driver";
         user = "root";
-        password = "1234";
+        password = "root";
         
         try {
             Class.forName(driver);

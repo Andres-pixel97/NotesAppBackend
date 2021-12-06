@@ -52,7 +52,7 @@ public class NoteDao implements INoteDao{ // Crear y usar interface INoteDao
     }
     
     @Override
-    public List<Note> getAll(int userid) {
+    public List<Note> getAllByUser(int userid) {
         ArrayList<Note> list = new ArrayList<>();
         String query = "SELECT * FROM note WHERE iduser = " + userid + " ;";
         NoteBuilder builder = new NoteBuilder();

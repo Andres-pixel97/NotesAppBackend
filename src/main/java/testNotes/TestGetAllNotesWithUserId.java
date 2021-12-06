@@ -16,7 +16,7 @@ public class TestGetAllNotesWithUserId {
     public static void main(String[] args) {
         NoteDao dao = new NoteDao();
         
-        System.out.println(dao.getAll(7).toString());
+        System.out.println(dao.getAllByUser(7).toString());
     }
 
 }
