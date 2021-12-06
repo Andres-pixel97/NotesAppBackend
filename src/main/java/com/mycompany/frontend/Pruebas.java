@@ -16,9 +16,10 @@ public class Pruebas {
 
     public static void main(String[] args) {
         INoteDao n = new NoteDaoService().getNoteDaoPort();
+        IUserDao no = new UserDaoService().getUserDaoPort();
         List l = n.getAll();
-        User u = new User();
-        u = (User) l.get(0);
+        //Pendiente no se puede convertir el 
+        User u = (User) l.get(0);
 
         System.out.println(u.getName());
 
